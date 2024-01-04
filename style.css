@@ -1,0 +1,19 @@
+
+
+
+h1¨{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    background-color: black;
+}
+p{
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(76, 108, 153);
+}
+img{
+    max-width: 25%;
+    max-height: 25%;
+}
