@@ -1,3 +1,6 @@
 # inf122
-Dylan Cabrera
-<p>Color favorito #f03c15</p>
+Nombre: Dylan Emilio Cabrera Alanez
+
+Materia: INF-122
+
+Color favorito: #F0F0F0

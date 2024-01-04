@@ -1,19 +1,19 @@
-
-
-
-h1¨{
-    color: rgb(255, 0, 0);
-    font-size: 25px;
-    font-family: 'Segoe UI';
-    background-color: black;
+body{
+    background-color: #9e9e9e;
 }
-p{
-    font-size: large;
+h1{
     text-align: center;
-    font-weight: bold;
-    color:rgb(76, 108, 153);
+    color: rgba(247, 133, 247, 0.432)
+    
 }
-img{
-    max-width: 25%;
-    max-height: 25%;
+h2{
+    color:  rgba(247, 133, 247, 0.432)
+}
+.enviar{
+    border-radius: 25%;
+    background-color: #a0e016 ;
+    color: #75470f;
+}
+.etiqueta{
+    background-color: #c96ba2;
 }
