@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        :root {
+            --black: #333131 ;
+            --white: #FFFFFF ;
+            --gram: #2B2E34 ;
+            --yellow: #D1AE34 ;
+            --gram-blue: #0D1423 ;
+            --clear-gram: #AFC0F2 ;
+            --sm: 14px;
+            --md: 20px;
+            --lg: 60px;
+        }
+
+        body {
+            font-family: 'Nunito';
+            margin: 0;
+        }
+
+        .main {
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            background-color: var(--gram);
+        }
+
+        .brochure {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            width: 100%;
+            justify-items: center;
+            background-color: var(--gram);
+        }
+
+        .more-info {
+            display: grid;
+            background-color: var(--gram-blue);
+            width: 100%;
+        }
+
+        .title {
+            color: var(--white);
+            text-align: center;
+            font-size: var(--lg);
+        }
+
+        .subtitle {
+            color: var(--clear-gram);
+            text-align: center;
+            font-size: var(--md);
+            margin: 5px 0 5px 0;
+        }
+
+        .icons-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin: 50px 260px 50px 260px;
+            justify-content: center;
+        }
+
+        .card-container {
+            display: flex;
+            align-items: center;
+            margin: 16px 0 16px 0;
+        }
+
+        .card-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: var(--yellow);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 50px;
+        }
+
+        .card-icon figure img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .icon-text h2 {
+            font-size: var(--lg);
+            margin: 0;
+        }
+
+        .icon-text p {
+            font-size: var(--md);
+            margin: 0;
+        }
+
+        @media (max-width: 720px) {
+            .icons-container {
+                grid-template-columns: repeat(1, 1fr);
+                margin: 50px 10px 50px 10px;
+
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="brochure">
+            <h1 class="title">Scaffolding a New Company</h1>
+            <p class="subtitle">Join us with the tastest blockchain innovations.</p>
+         
+        </div>
+        <div class="more-info">
+            <section class="icons-container">
+                <div class="card-container">
+                    <div class="card-icon">
+                        <figure>
+                            <img src="./icons/bx_bxs-book-heart.svg" alt="" class="logo">
+                        </figure>
+                    </div>
+
+                    <div class="icon-text">
+                      
+                        <p class="icon-text">Guide your decisions with our wealth of research.</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card-icon">
+                        <figure>
+                            <img src="./icons/bx_bxs-book-heart.svg" alt="" class="logo">
+                        </figure>
+                    </div>
+
+                    <div class="icon-text">
+                        
+                        <p class="icon-text">Guide your decisions with our wealth of research.</p>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card-icon">
+                        <figure>
+                            <img src="./icons/bx_bxs-book-heart.svg" alt="" class="logo">
+                        </figure>
+                    </div>
+
+                    <div class="icon-text">
+                        
+                        <p class="icon-text">Guide your decisions with our wealth of research.</p>
+                    </div>
+                </div>
+              
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
