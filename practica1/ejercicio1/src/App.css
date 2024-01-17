@@ -1,0 +1,30 @@
+:root {
+  --purple: #663399;
+  --white: #ffffff;
+  --sm: 5px;
+  --md: 10px;
+  --lg: 20px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--lg);
+  width: 100%;
+  margin-left: 30%;
+  height: 100vh;
+}
+button {
+  background-color: var(--purple);
+  color: var(--white);
+  padding: var(--md);
+  border-radius: var(--sm);
+  border: none;
+}

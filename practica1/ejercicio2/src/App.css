@@ -1,0 +1,33 @@
+:root {
+  --red: #ff0000;
+  --yellow: #ffff00;
+  --green: #008000;
+  --sm: 5px;
+  --md: 10px;
+  --lg: 20px;
+}
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, -50%);
+}
+button {
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin: 10px 2px;
+}
+button:nth-of-type(1) {
+  background: var(--green);
+}
+button:nth-of-type(2) {
+  background: var(--red);
+}
+button:nth-of-type(3) {
+  background: var(--yellow);
+}
