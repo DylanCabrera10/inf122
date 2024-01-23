@@ -1,6 +1,7 @@
 import React from 'react';
 import TableroD from './TableroD';
 import { useState } from 'react';
+
 function Juego() {
     const [historial, setHistorial] = useState([
         {
@@ -24,8 +25,19 @@ function Juego() {
     }
 
     function saltarA(paso) {
+        if (paso === 0) {
+            // Si estamos retrocediendo al inicio del juego, reiniciamos el historial y el turno del jugador
+            setHistorial([
+                {
+                    cuadros: Array(9).fill(null)
+                }
+            ]);
+            setEsTurnoDeX(true);
+        } else {
+            // Si estamos retrocediendo a un paso específico, actualizamos el número de paso y el turno del jugador
+            setEsTurnoDeX(paso % 2 === 0);
+        }
         setNumeroPaso(paso);
-        setEsTurnoDeX(paso % 2 === 0);
     }
 
     const actual = historial[numeroPaso];
