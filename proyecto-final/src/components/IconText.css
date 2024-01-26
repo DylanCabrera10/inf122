@@ -1,0 +1,20 @@
+* src/components/IconText.css */
+.icon-text h2 {
+  font-size: var(--md);
+  color: var(--h2);
+  margin: 0;
+}
+
+.icon-text p {
+  font-size: var(--sm);
+  color: var(--h2);
+  margin: 0;
+}
+
+.icon-text img {
+  width: 20px;
+  height: 20px;
+  border-radius: 60%;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0px 0px 0px 5px;
+}

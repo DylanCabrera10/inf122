@@ -1,0 +1,28 @@
+/* src/components/CardButton.css */
+.card-container-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn-cv {
+    background-color: var(--yellow);
+    color: var(--black);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+    border-left: 0px;
+    font-size: var(--sm);
+    cursor: pointer;
+    margin: 0px 10px 0px 10px;
+  }
+  
+  .btn-cm {
+    background-color: var(--btn-cm);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+    font-size: var(--sm);
+    cursor: pointer;
+    margin: 0px 10px 0px 10px;
+  }

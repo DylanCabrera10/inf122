@@ -1,0 +1,26 @@
+.card-container-exp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 20px 90px 20px 110px;
+    margin-right: 120px;
+    margin-left: 120px;
+    text-align: center;
+  }
+  
+  .icon-text-exp h2 {
+    font-size: var(--md);
+    color: var(--h2);
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+  }
+  
+  .icon-text-exp p {
+    font-size: var(--sm);
+    color: var(--h2);
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 0px 0px;
+  }

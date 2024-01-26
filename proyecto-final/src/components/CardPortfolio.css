@@ -1,0 +1,31 @@
+/* src/components/CardPortfolio.css */
+.card-container-por {
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171F26;
+    margin: 17px 0 18px 0;
+  }
+  
+  .btn-por {
+    background-color: var(--btn-por);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+    font-size: var(--sm);
+    cursor: pointer;
+    margin: 10px 50px 10px 50px;
+  }
+  
+  .btn-sk {
+    background-color: var(--btn-cm);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: var(--sm);
+    cursor: pointer;
+    margin: 10px 50px 10px 0px;
+  }
